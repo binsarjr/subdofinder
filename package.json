@@ -1,0 +1,18 @@
+{
+  "name": "subdodumper",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "subdodumper": "index.ts",
+    "jcssubdodumper": "index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
