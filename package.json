@@ -3,8 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "bin": {
-    "subdodumper": "index.ts",
-    "jcssubdodumper": "index.ts"
+    "subdodumper": "subdodumper.ts",
+    "jcssubdodumper": "subdodumper.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -13,6 +13,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "commander": "^12.1.0"
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "loading-cli": "^1.1.2"
   }
 }
