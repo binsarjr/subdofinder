@@ -2,6 +2,8 @@
 
 **SubdoFinder** is a simple tool to collect subdomains of a specific domain.
 
+![subdofinder](./subdofinder.png)
+
 ---
 
 ## Features
