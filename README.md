@@ -1,4 +1,4 @@
-# subdodumper
+# subdofinder
 
 To install dependencies:
 

@@ -118,7 +118,7 @@ const crt = async (domain: string) => {
 
 globalThis.user_agents = await loadUserAgentFromGist();
 
-program.name("subdodumper").description("Dump subdomains of a domain");
+program.name("subdofinder").description("Dump subdomains of a domain");
 program.option("-d, --domain <domain...>", "Domain to dump");
 program.option("-l, --list <list...>", "List all subdomains files");
 program.option(

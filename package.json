@@ -1,10 +1,11 @@
 {
-  "name": "subdodumper",
+  "name": "subdofinder",
+  "version": "0.0.0",
   "module": "index.ts",
   "type": "module",
   "bin": {
-    "subdodumper": "subdodumper.ts",
-    "jcssubdodumper": "subdodumper.ts"
+    "subdofinder": "subdofinder.ts",
+    "jcssubdofinder": "subdofinder.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
